@@ -5,7 +5,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth,windowHeight)
   // put setup code here
-
+  background("purple");
 }
 
 function draw() {
