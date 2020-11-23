@@ -61,6 +61,10 @@ function draw() {
 
   //main
   push();
+  fill("black");
+  rectMode(CENTER);
+  noStroke();
+  rect(width / 2, 100, width, 50);
   fill("white");
   noStroke();
   textSize(30);
@@ -71,6 +75,10 @@ function draw() {
 
   //text
   push();
+  fill("black");
+  rectMode(CENTER);
+  noStroke();
+  rect(width / 2, 150, width, 20);
   fill("white");
   noStroke();
   textSize(15);
@@ -81,6 +89,10 @@ function draw() {
 
   //text 2
   push();
+  fill("black");
+  rectMode(CENTER);
+  noStroke();
+  rect(width / 2, height / 10 * 8.3, width, 50);
   fill("white");
   noStroke();
   textSize(15);
